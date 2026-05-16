@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeletarActivity">
+
+    <TextView
+        android:id="@+id/txtTituloDeletar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_deletar"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="80dp"/>
+
+    <EditText
+        android:id="@+id/edIdProduto"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/id_produto_del"
+        android:enabled="false"
+        app:layout_constraintTop_toBottomOf="@id/txtTituloDeletar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/edNomeProduto"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome_produto_del"
+        android:enabled="false"
+        app:layout_constraintTop_toBottomOf="@id/edIdProduto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edValorProduto"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/valor_produto_del"
+        android:enabled="false"
+        app:layout_constraintTop_toBottomOf="@id/edNomeProduto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edQuantidadeProduto"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/quantidade_del"
+        android:enabled="false"
+        app:layout_constraintTop_toBottomOf="@id/edValorProduto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:id="@+id/layoutBotoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        app:layout_constraintTop_toBottomOf="@id/edQuantidadeProduto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:id="@+id/imgPrimeiro"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/primeiro_del"
+            android:scaleType="fitXY"
+            android:src="@drawable/botao_del_primeiro" />
+
+        <ImageView
+            android:id="@+id/imgAnterior"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/anterior_del"
+            android:scaleType="fitXY"
+            android:src="@drawable/botao_del_anterior" />
+
+        <ImageView
+            android:id="@+id/imgProximo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/proximo_del"
+            android:scaleType="fitXY"
+            android:src="@drawable/botao_del_proximo" />
+
+        <ImageView
+            android:id="@+id/imgUltimo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/ultimo_del"
+            android:scaleType="fitXY"
+            android:src="@drawable/botao_del_ultimo" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnExcluirProduto"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/excluir_produto_del"
+        app:layout_constraintTop_toBottomOf="@id/layoutBotoes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/voltar_del"
+        app:layout_constraintTop_toBottomOf="@id/btnExcluirProduto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

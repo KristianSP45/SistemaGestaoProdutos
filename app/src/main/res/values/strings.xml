@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- APP -->
+    <string name="app_name">SistemaGestaoProdutos</string>
+
+    <!-- MAIN ACTIVITY -->
+    <string name="titulo_sistema">Sistema de Gestão de Produtos</string>
+
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+
+    <string name="login">Login</string>
+    <string name="cadastrar">Cadastrar</string>
+
+    <!-- LOGIN ACTIVITY -->
+    <string name="titulo_login">Cadastro de Usuário</string>
+    <string name="cadastrar_usuario">Cadastrar Usuário</string>
+
+    <!-- HOME ACTIVITY -->
+    <string name="cadastrar_produto">Cadastrar Produto</string>
+    <string name="consultar_produto">Consultar Produto</string>
+    <string name="editar_produto_home">Editar Produto</string>
+    <string name="excluir_produto">Excluir Produto</string>
+    <string name="sair">Sair</string>
+
+    <!-- CADASTRAR -->
+    <string name="titulo_cadastrar">Cadastrar Produto</string>
+    <string name="nome_produto_hint">Nome do Produto</string>
+    <string name="valor_produto_hint">Valor do Produto</string>
+    <string name="quantidade_hint">Quantidade</string>
+    <string name="salvar_produto">Salvar Produto</string>
+    <string name="voltar">Voltar</string>
+
+    <!-- CONSULTAR -->
+    <string name="titulo_consultar">Consultar Produtos</string>
+    <string name="primeiro_consultar">Primeiro</string>
+    <string name="anterior_consultar">Anterior</string>
+    <string name="proximo_consultar">Próximo</string>
+    <string name="ultimo_consultar">Último</string>
+
+    <!-- EDITAR -->
+    <string name="titulo_editar">Editar Produto</string>
+    <string name="id_produto_hint">ID</string>
+    <string name="nome_produto_editar">Nome Produto</string>
+    <string name="valor_produto_editar">Valor Produto</string>
+    <string name="quantidade_editar">Quantidade</string>
+
+    <string name="botao_alt_primeiro">Primeiro</string>
+    <string name="botao_alt_anterior">Anterior</string>
+    <string name="botao_alt_proximo">Próximo</string>
+    <string name="botao_alt_ultimo">Último</string>
+
+    <string name="alterar_produto">Alterar Produto</string>
+
+    <!-- DELETAR -->
+    <string name="titulo_deletar">Excluir Produto</string>
+    <string name="id_produto_del">ID</string>
+    <string name="nome_produto_del">Nome Produto</string>
+    <string name="valor_produto_del">Valor Produto</string>
+    <string name="quantidade_del">Quantidade</string>
+
+    <string name="primeiro_del">Primeiro</string>
+    <string name="anterior_del">Anterior</string>
+    <string name="proximo_del">Próximo</string>
+    <string name="ultimo_del">Último</string>
+
+    <string name="excluir_produto_del">Excluir Produto</string>
+    <string name="voltar_del">Voltar</string>
+
+</resources>
