@@ -60,7 +60,8 @@
         app:layout_constraintTop_toBottomOf="@id/edQuantidadeProduto"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="30dp"/>
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#4CAF50"/>
 
     <Button
         android:id="@+id/btnVoltar"
@@ -70,6 +71,7 @@
         app:layout_constraintTop_toBottomOf="@id/btnSalvarProduto"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="15dp"/>
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#F44336"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
